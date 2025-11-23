@@ -1,0 +1,118 @@
+# Compiled class files
+*.class
+
+# Package files
+*.jar
+*.war
+*.ear
+*.nar
+*.zip
+*.tar.gz
+*.rar
+
+# Logs and temp files
+*.log
+logs/
+tmp/
+temp/
+*.tmp
+*.swp
+*~
+*.bak
+
+# Maven
+target/
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+!.mvn/wrapper/maven-wrapper.jar
+!.mvn/wrapper/maven-wrapper.properties
+
+# Gradle
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+gradle-app.setting
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+# Eclipse / STS
+.classpath
+.project
+.settings/
+.apt_generated
+.factorypath
+.springBeans
+
+# NetBeans
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+# VS Code
+.vscode/
+
+# Test reports / coverage
+surefire-reports/
+failsafe-reports/
+test-output/
+coverage/
+jacoco.exec
+jacoco/
+
+# Generated sources
+generated-sources/
+generated-test-sources/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Native crash reports and heaps
+hs_err_pid*
+*.hprof
+
+# Keystores and credentials
+*.jks
+*.keystore
+*.pem
+*.p12
+
+# Docker
+docker-compose.override.yml
+.env
+**/docker-compose.override.yml
+**/.env
+
+# Archives created by IDEs/build tools
+*.class
+*.war
+*.ear
+
+# Dependency directories (if any)
+node_modules/
+bower_components/
+
+# Miscellaneous
+.recommenders
+.settings/
+.classpath
+.project
+
+# JetBrains Rider (if using)
+.idea/
+*.sln.iml
+
+# Lock files for build tools (optional)
+# Uncomment to ignore
+# .mvn/wrapper/maven-wrapper.jar
+
+# End of file
