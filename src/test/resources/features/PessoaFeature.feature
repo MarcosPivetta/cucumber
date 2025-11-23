@@ -44,4 +44,4 @@ Funcionalidade: Pessoa recurso de teste
   Cenario: Deletar uma pessoa
     Dado a lista de pessoas contendo 3 pessoas ja armazenadas
     Quando eu removo uma pessoa com id 1
-    Entao a pessoa com id fornecido é removida da lista e o tamanho da lista e 2
+    Entao a pessoa com id fornecido e removida da lista e o tamanho da lista e 2

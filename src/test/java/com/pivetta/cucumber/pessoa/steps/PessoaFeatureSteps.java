@@ -83,8 +83,8 @@ public class PessoaFeatureSteps {
         pessoaService.delete(id);
     }
 
-    @Entao("^a pessoa com id fornecido é removida da lista e o tamanho da lista e (.*)$")
-    public void a_pessoa_com_id_fornecido_é_removida_da_lista_e_o_tamanho_da_lista_e(int tamanhoEsperado) {
+    @Entao("^a pessoa com id fornecido e removida da lista e o tamanho da lista e (.*)$")
+    public void a_pessoa_com_id_fornecido_e_removida_da_lista_e_o_tamanho_da_lista_e(int tamanhoEsperado) {
         findAllPersons();
         Assertions.assertThat(pessoaList).hasSize(tamanhoEsperado);
     }
