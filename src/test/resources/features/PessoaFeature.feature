@@ -1,10 +1,12 @@
 # language: pt
+@regressao
 Funcionalidade: Pessoa recurso de teste
 # Esse arquivo contem os cenarios de teste para o recurso Pessoa
 # Para esse não precisamos de uma conexão de banco de dados para armazenar e encontrar pessoas.
 # As pessoas gerenciadas precisam ser armazenadas na memoria.
 
   #Primeiro cenario para inicializar uma lista de pessoas
+  @login
   Cenario: Inicializar uma lista de pessoas
     Dado que eu tenho um metodo estatico que inicializa uma lista de pessoas
     Quando eu conecto posso ver o tanho da lista inicializada de pessoas
