@@ -19,7 +19,7 @@ Funcionalidade: Pessoa recurso de teste
     Entao obtenho o ID da nova pessoa e a lista contem mais que 3 pessoas
 
   # Criar uma criacao em massa de pessoas
-  Esquema do Cenario: Criar uma lista de  pessoas
+  Esquema do Cenario: Criar uma lista de pessoas
     Dado a lista de pessoas contendo 3 pessoas ja armazenadas
     Quando eu crio uma nova pessoa com nome <nome>, sobrenome <sobrenome>, e idade <idade>
     Entao eu obtenho o ID da nova pessoa e a lista contem mais que 3 pessoas
